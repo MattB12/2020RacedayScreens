@@ -17,13 +17,17 @@ These screen/XAML files, and their supporting files, make up a modernised *Race 
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDayWithExtraWindows_300px.png "Click to enlarge")](Screenshots/2020RaceDayWithExtraWindows_full.png)
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDayResultsSummary_300px.png "Click to enlarge")](Screenshots/2020RaceDayResultsSummary_full.png)
 
+## Downloading
+
+To download the 2020 Screens, click the green **latest** label on the right under the heading **Releases**, then click **2020Screens_x.x.zip** (where x.x is the version number) to download it.
+
 ## Installation
 
-There are two options for installation, manual and automated.  Automated is the easiest way to install the 2020 Screens, however it utilises a PowerShell script that you should not be comfortable in running.  The Manual method will allow you to maintain more control, but will take longer, especially if you have a large number of races to configure.
+There are two options for installation, [manual](#manual-installation) and [automated](#automated-installation).  Automated is the easiest way to install the 2020 Screens, however it utilises a PowerShell script that you should not be comfortable in running.  The Manual method will allow you to maintain more control, but will take longer, especially if you have a large number of races to configure.
 
 ### Extract the files
 
-1. Using *Windows Explorer*, locate the **2020Screens.zip** file you have downloaded.
+1. Using *Windows Explorer*, locate the **2020Screens_x.x.zip** file you have downloaded.
 2. **Right-click** the file and select **Extract All...**.
 3. Select a suitable location to extract to (the default is usually fine) and click the **Extract** button.
 4. Once extraction is complete, you should have the following directories extracted:
