@@ -1,5 +1,8 @@
 # 2020 Screens
 
+## Race Coordinator
+
+[Race Coordinator](https://racecoordinator.net/index.html) is free software written by Dave from DPASoft which provides lap counting/timing for slot car races.  One of *Race Coordinator's* many features is that the race screens are able to be customised, which is where these 2020 Screens comes in.
 These screen/XAML files, and their supporting files, make up a modernised *Race Coordinator* skin/theme that drags *Race Coordinator* into the 21st century :sunglasses:.  This has been achieved by using modern font and colours, and by removing gradients to create a flatter look.
 
 ![2020 Screens animated GIF](Screenshots/2020RaceDay_full.gif "New Race Day screen")
