@@ -1,0 +1,7 @@
+# exclude .gitignore and similar from the generated tarball
+.git*           export-ignore
+# exclude release directory
+Release/
+# exclude unnecessary scripts (useless outside the repo)
+backupRaceCoordinator.ps1  export-ignore
+createReleaseZip.ps1   export-ignore

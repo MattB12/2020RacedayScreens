@@ -1,0 +1,14 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# Ignore Visual Studio Code folders and files within them
+**/.vscode/
+.vscode/
+# Ignore Log files and folders
+**/log/
+**/logs/
+*.log
+# Ignore .EXE files
+*.exe
+# Ignore images (except in the specified images directory)
+*.png
+!Images/*.png
+!Screenshots/*.png
