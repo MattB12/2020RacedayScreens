@@ -140,14 +140,14 @@
                         </Label>
                     </StackPanel>
                     <!-- End StackPanel 2 -->
-                    <!-- StackPanel 3 for the third column (column 2) in 'grid1' -->
+                    <!-- StackPanel 3 for the third column in 'grid1' (Race Leader Board) -->
                     <TextBlock FontSize="20" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" Text="Race Leader Board"/>
                     <StackPanel Grid.Column="2" Height="190" Margin="5,25,5,0" VerticalAlignment="Top" >
                         <Grid VerticalAlignment="Top">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="25"/>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="60"/>
                                 <ColumnDefinition/>
-                                <ColumnDefinition Width="70"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition />
@@ -158,63 +158,75 @@
                                 <RowDefinition />
                             </Grid.RowDefinitions>
                             <!-- Leaderboard Position 1-->
-                            <TextBlock Text="1" Grid.Row="0" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader1_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="1" Grid.Row="0" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right">
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader1_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 2-->
-                            <TextBlock Text="2" Grid.Row="1" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader2_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="160" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader1_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 2-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="2" Grid.Row="1" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader2_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 3-->
-                            <TextBlock Text="3" Grid.Row="2" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader3_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader2_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 3-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader3_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 4-->
-                            <TextBlock Text="4" Grid.Row="3" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader4_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader3_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 4-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="4" Grid.Row="3" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader4_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 5-->
-                            <TextBlock Text="5" Grid.Row="4" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader5_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader4_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 5-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="5" Grid.Row="4" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader5_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 6-->
-                            <TextBlock Text="6" Grid.Row="5" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader6_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader5_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 6-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="6" Grid.Row="5" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader6_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader6_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
                         </Grid>
                     </StackPanel>
                     <!-- End StackPanel 3 -->
-                    <!-- StackPanel 4 for the fourth column (column 3) in 'grid1' -->
+                    <!-- StackPanel 4 for the fourth column in 'grid1' (Race Leader Board column 2) -->
                     <StackPanel Grid.Column="3" Height="190" Margin="5,25,5,0" VerticalAlignment="Top">
                         <Grid VerticalAlignment="Top">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="60"/>
                                 <ColumnDefinition/>
-                                <ColumnDefinition Width="70"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition />
@@ -225,52 +237,64 @@
                                 <RowDefinition />
                             </Grid.RowDefinitions>
                             <!-- Leaderboard Position 7-->
-                            <TextBlock Text="7" Grid.Row="0" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader7_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="7" Grid.Row="0" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right">
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader7_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 8-->
-                            <TextBlock Text="8" Grid.Row="1" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader8_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader7_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 8-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="8" Grid.Row="1" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader8_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 9-->
-                            <TextBlock Text="9" Grid.Row="2" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader9_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader8_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 9-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="9" Grid.Row="2" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader9_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 10-->
-                            <TextBlock Text="10" Grid.Row="3" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader10_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader9_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 10-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="10" Grid.Row="3" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader10_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 11-->
-                            <TextBlock Text="11" Grid.Row="4" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader11_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader10_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 11-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="11" Grid.Row="4" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader11_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <!-- Leaderboard Position 12-->
-                            <TextBlock Text="12" Grid.Row="5" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
-                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left">
-                                <TextBlock Name="Nickname_RaceLeader12_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader11_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
-                            <Viewbox MaxWidth="70" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+                            <!-- Leaderboard Position 12-->
+                            <Viewbox MaxWidth="15" MinWidth="15" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock Text="12" Grid.Row="5" Grid.Column="0" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="60" MinWidth="40" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right">
                                 <TextBlock Name="Standing_RaceLeader12_1" DataContext="'decimals':3" Style="{StaticResource leaderBoardText}" />
+                            </Viewbox>
+                            <Viewbox MaxWidth="180" MaxHeight="25" MinHeight="25" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Left">
+                                <TextBlock Name="Nickname_RaceLeader12_1" Margin="5,0" Style="{StaticResource leaderBoardText}" />
                             </Viewbox>
                         </Grid>
                     </StackPanel>
