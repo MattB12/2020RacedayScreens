@@ -27,7 +27,7 @@ begin{
     $scriptTitle = "Release Zip creation ($($MyInvocation.MyCommand.Name))"
     $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
     # Release Variables
-    $releaseVersion = "0.2"
+    $releaseVersion = "1.0"
     $releaseFileName = "2020Screens"
     $releasePath = "$(split-path -parent $MyInvocation.MyCommand.Definition)\Release"
 

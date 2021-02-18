@@ -38,7 +38,8 @@ begin{
     $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
     $tempDirectory = $env:TEMP
     # Race Coordinator variables
-    $rcProgramData = "C:\ProgramData\Race Coordinator"
+#    $rcProgramData = "C:\ProgramData\Race Coordinator"
+    $rcProgramData = "$([Environment]::GetFolderPath("CommonApplicationData"))\Race Coordinator"
     $rcBackupDirectory = "$([Environment]::GetFolderPath("MyDocuments"))\Race Coordinator backups"
     # Yes/No/Cancel prompt variables - https://jcallaghan.com/2011/10/adding-a-yes-no-cancel-prompt-to-a-powershell-script/
     $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes","Yes, please do."
