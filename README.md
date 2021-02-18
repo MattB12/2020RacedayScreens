@@ -11,9 +11,10 @@ These screen/XAML files, and their supporting files, make up a modernised *Race 
 
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDayWithStartingLights_300px.png "Click to enlarge")](Screenshots/2020RaceDayWithStartingLights_full.png)
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDay_300px.png "Click to enlarge")](Screenshots/2020RaceDay_full.png)
-[![2020 Practice Screenshot](Screenshots/2020Practice_300px.png "Click to enlarge")](Screenshots/2020Practice_full.png)
 
+[![2020 Practice Screenshot](Screenshots/2020Practice_300px.png "Click to enlarge")](Screenshots/2020Practice_full.png)
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDayCnlPlusFuel_300px.png "Click to enlarge")](Screenshots/2020RaceDayCnlPlusFuel_full.png)
+
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDayWithExtraWindows_300px.png "Click to enlarge")](Screenshots/2020RaceDayWithExtraWindows_full.png)
 [![2020 RaceDay Screenshot](Screenshots/2020RaceDayResultsSummary_300px.png "Click to enlarge")](Screenshots/2020RaceDayResultsSummary_full.png)
 
